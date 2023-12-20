@@ -40,3 +40,5 @@ app_config = {
     'testing': TestingConfig(),
     'production': ProductionConfig()
 }
+
+app_active = os.getenv('FLASK_ENV')
