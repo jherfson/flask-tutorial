@@ -12,6 +12,7 @@ class Config(object):
         os.path.abspath(__file__)
     )
     APP = None
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqldb://root:qweasd123@localhost:3306/livro_flask'
 
 class DevelopmentConfig(Config):
     TESTING = True
